@@ -1,0 +1,108 @@
+#services{
+  padding: 80px 15px;
+}
+
+#services .title{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+}
+#services .title .circle{
+ background: rgba(203, 66, 244, .1);
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ position: absolute;
+ top: 20px;
+}
+
+#services .title h1{
+  position: relative;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #16171b;
+  letter-spacing: 4px;
+  z-index: 1;
+
+}
+
+#services .services-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+#services .services-container .box{
+background: rgba(255,255,255, 0);
+transition: all .4s ease-in-out;
+padding: 60px;
+margin-top: 2rem;
+}
+
+#services .services-container .box h5{
+background: rgba(255,255,255, 0);
+font-size: .95rem;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.5px;
+margin-bottom: 2rem;
+}
+
+#services .services-container .box p{
+color: #b3b3b4;
+font-weight: 300;
+line-height: 1.5;
+font-size: .98rem;
+
+}
+
+#services .fas{
+  font-size: 30px;
+  margin-bottom: 2rem;
+  color: #272b2e;
+}
+#services .blue {
+    border-bottom: 3px solid #C774FF;
+
+}
+#services .red {
+    border-bottom: 3px solid #7E38CB;
+
+}
+#services .yellow {
+    border-bottom: 3px solid #F95FFF;
+
+}
+
+
+
+#services .services-container .box:hover{
+background: rgba(255,255,255, 1);
+-webkit-box-shadow: 0px 39px 61px 24px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 39px 61px 24px rgba(0,0,0,0.08);
+box-shadow: 0px 39px 61px 24px rgba(0,0,0,0.08);
+}
+
+/* tablets   */
+@media only screen and (max-width: 960px) {
+#services .services-container {
+  grid-template-columns: 100%;
+
+}
+#services .services-container .box{
+background: rgba(255,255,255, 1);
+-webkit-box-shadow: 0px 39px 61px 24px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 39px 61px 24px rgba(0,0,0,0.08);
+box-shadow: 0px 39px 61px 24px rgba(0,0,0,0.08);
+}
+}
+/*mobile  */
+@media only screen and (max-width: 767px) {
+
+}
