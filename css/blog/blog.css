@@ -1,0 +1,92 @@
+#newheader{
+  background: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350');
+  padding: 85px 15px;
+  display: grid;
+  grid-template-columns: 1fr ;
+  background-position: center top;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+#newheader .newtitle--header h1{
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: .5px;
+    color: #111111;
+    color: white;
+
+}
+#newheader .newtitle--header {
+  background: black;
+  padding: 5px 15px;
+
+}
+#newheader .newtitle--header .newtitle--subtitle{
+    background: black;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+#newheader .newtitle--header .newtitle--subtitle h5{
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    color: orange;
+    letter-spacing: 1px;
+}
+
+#newarticle{
+  padding: 100px 25px;
+
+}
+
+#newarticle .newarticle-heading h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-right: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#newarticle .newarticle-heading p{
+  padding-top: 1.4rem;
+  color: black;
+  line-height: 1.8;
+  font-weight: 300;
+
+}
+#newarticle .newarticle-heading p strong{
+ font-weight: bold;
+
+}
+#newarticle .newarticle-heading p em{
+  font-style: italic;
+}
+.logo a{
+  text-decoration: none;
+}
+
+.center-ui{
+  padding-top: 10px;
+
+}
+.outro {
+ padding: 40px 15px;
+}
+.outro h4{
+  font-size: 1.2rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 1px;
+}
+
+.outro h6{
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.newarticle-subheader{
+  padding-top: 1.5rem;
+}

@@ -1,0 +1,77 @@
+#portfolio-projects {
+    padding: 100px 15px;
+
+}
+
+#portfolio-projects h1 {
+
+    font-size: 3rem;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+
+}
+
+#portfolio-projects .info .buttons {
+    padding: 1.5rem;
+
+
+}
+
+#portfolio-projects .info .buttons a {
+    padding: 1.5rem;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out;
+
+
+
+}
+
+
+#portfolio-projects .info .buttons a:hover {
+
+    background: purple;
+    transform: translateY(-3px);
+}
+
+
+#portfolio-projects p {
+    color: #929294;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    font-weight: 300;
+    padding: 20px;
+    margin-bottom: 1rem;
+
+
+}
+
+#portfolio-projects .technologies {
+    margin-top: 5rem;
+}
+
+#portfolio-projects .technologies h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+
+
+}
+
+#portfolio-projects .technologies .icons {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#portfolio-projects .technologies .icon {}
